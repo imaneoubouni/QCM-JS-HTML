@@ -1,0 +1,44 @@
+*{
+    font-style:oblique;
+    margin-left: 10px;
+}
+body{
+    background: rgb(247, 245, 216);
+    text-align: center;
+}
+h1{
+    color:rgb(95, 59, 59) ;
+}
+input.rslt{
+    background-color: rgb(95, 59, 59) !important;
+    color: rgb(247, 245, 216) !important; 
+}
+input.rslt:hover{
+     background-color:rgb(247, 245, 216) !important ; 
+     color: rgb(95, 59, 59) !important; 
+}
+input[type="button"]{
+     margin: 30px;
+     padding: 10px 40px;
+     border: 2px solid rgb(95, 59, 59);
+     box-shadow: 0 0 5px rgb(95, 59, 59);
+     background-color: rgb(247, 245, 216); 
+     color: rgb(116, 79, 79); 
+     border-radius: 30px;
+}
+input[type="button"]:hover{
+     background-color: rgb(95, 59, 59); 
+     color: rgb(247, 245, 216); 
+}
+form div{
+    background: rgb(116, 79, 79);
+    width: 50%;
+    color: antiquewhite;
+    padding: 20px 30px 40px 20px;
+    margin-top: 20px;
+    margin: 30px auto;
+    border: 2px solid rgb(95, 59, 59);
+    border-radius: 40px;
+}
+
+

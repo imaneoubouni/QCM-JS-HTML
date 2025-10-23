@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style2.css">
+    <script src="/monscript.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="qcm">
+        <h1 >QCM Javascript et HTML</h1>
+        <div>
+            <h4>1. Quel langage est exécuté côté client ?</h4>
+            <input type="radio" name="os1" value="1-a" checked>Java <br>
+            <input type="radio" name="os1" value="1-b">C++ <br>
+            <input type="radio" name="os1" value="1-c">Javascript <br>
+        </div>
+        <div>
+            <h4>2.Que signifie HTML ?</h4>
+            <input type="radio" name="os2" value="2-a" checked>HyperText Markup Language <br>
+            <input type="radio" name="os2" value="2-b">HighText Machine Language<br>
+            <input type="radio" name="os2" value="2-c">HyperTransfer Markup Logic <br>
+        </div>
+        <div>
+            <h4>3. Quels sont des langages web ?</h4>
+            <input type="checkbox" name="os3" value="3-a"> HTML<br>
+            <input type="checkbox" name="os3" value="3-b"> CSS<br>
+            <input type="checkbox" name="os3" value="3-c"> Python<br>
+        </div>
+        <div>
+            <h4>4. Lesquelles de ces instructions sont valides en JavaScript ?</h4>
+            <input type="checkbox" name="os4" value="4-a">let x = 10;<br>
+            <input type="checkbox" name="os4" value="4-b">var nom = "Imane";<br>
+            <input type="checkbox" name="os4" value="4-c">int age=20;<br>
+        </div>
+        <div>
+            <h4>5. Quels sont des frameworks JavaScript ?</h4>
+            <input type="checkbox" name="os" value="5-a"> React<br>
+            <input type="checkbox" name="os" value="5-b"> Angular<br>
+            <input type="checkbox" name="os" value="5-c"> Django<br><br>
+        </div>
+        <!--les buttons-->
+        <input type="button" class="rslt" value="résultat" onclick="afficherResultat(this.form.os)">
+        <input type="button" value="corriger" onclick="corriger()">
+        <input type="button" value="initialiser" onclick="initialiser()">
+    </form>
+</body>
+
+</html>
